@@ -2,6 +2,8 @@
 add_library( boost_1_67_0
              STATIC
              "iostreams/src/zlib.cpp"
+             "iostreams/src/gzip.cpp"
+
              "filesystem/src/codecvt_error_category.cpp"
              "filesystem/src/operations.cpp"
              "filesystem/src/path_traits.cpp"
